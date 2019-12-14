@@ -37,10 +37,10 @@ end
 
 # Define your play method below\
 
-counter = 0
 def play(board)
-  while counter < 10
+  movenumber = 0
+  while movenumber < 10
     turn(board)
-    counter += 1
+    movenumber += 1
   end
 end
